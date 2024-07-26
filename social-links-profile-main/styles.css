@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+.attribution{
+    display: none;
+}
+
+body{
+    font-family: Inter;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the body takes the full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+p{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+#name{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#address{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.information{
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul > li{
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+}
+
+ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+ul > li > a > p:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+ul > li > a > p{
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 20%) ;
+    padding: 20px;
+}
+
+.information > img{
+    border-radius: 100px;
+    width: 100px;
+}
