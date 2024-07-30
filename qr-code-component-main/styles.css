@@ -1,0 +1,49 @@
+/* Importing the required font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    /* Setting the height of the body. */
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 30px;
+    /* Applying the specified font family and weight. */ 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* Display is flex to centralize the div easily. */
+    background-color: hsl(212, 45%, 89%);
+    color: hsl(216, 15%, 48%);
+}
+
+.container{
+    max-width: 1440px;
+    text-align: center;
+    /* Centralizing the text */
+    width: 20%;
+    /* Adjusting the widht of the div */
+    display: block;
+    /* Display is block so that elements start from a new line.  */
+    padding: 10px;
+    /* Padding.  */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+
+#divHeader{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    /* Applying the specified font weight for the header. */
+}
+
+#qr{
+    width: 100%;
+    border-radius: 50px;
+}
+
+/* Hiding the copyright class.*/ 
+.attribution{
+    display: none;
+}
