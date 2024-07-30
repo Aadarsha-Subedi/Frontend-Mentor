@@ -8,7 +8,7 @@ body{
     /* Setting the height of the body. */
     font-family: Outfit;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 15px;
     /* Applying the specified font family and weight. */ 
     display: flex; 
     align-items: center;
